@@ -1,1 +1,20 @@
+.row{display:flex;}
+.div-height{
+    height: 200px;
+    width: 50%;
+    margin: 15px 10px;
+}
+.yellow-div{background-color: #ffc83c;}
+.pink-div{background-color: #ff3c69;width: 100%;}
+.blue-div{background-color: #6e7dff;}
 
+/* resolution under 1024px */
+@media only screen and (max-width:1024px) {
+    .blue{display: block;}
+    .blue .div-height{width:97%; height:100px}
+}
+/* resolution under 768px */
+@media only screen and (max-width:768px) {
+    .yellow{display: block;}
+    .yellow .div-height{width: 97%; height:100px}
+}
