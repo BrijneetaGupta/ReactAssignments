@@ -11,10 +11,10 @@
 /* resolution under 1024px */
 @media only screen and (max-width:1024px) {
     .blue{display: block;}
-    .blue .div-height{width:97%;}
+    .blue .div-height{width:97%; height:100px}
 }
 /* resolution under 768px */
 @media only screen and (max-width:768px) {
     .yellow{display: block;}
-    .yellow .div-height{width: 97%;}
+    .yellow .div-height{width: 97%; height:100px}
 }
