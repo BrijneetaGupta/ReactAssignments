@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.employee-card{
+  width: 250px;
+  margin: 20px auto;
+  background: bisque;
+  border-radius: 15px;
+  padding: 25px 20px;
+}
+.card-img{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.card-img img{
+  width: 250px;
+  border-radius: 6px;
+}
+.employee-details h2{
+  color: #359cdd;
+  font-size: 35px;
+  margin: 0 0 5px 0;
+}
+.inner-content{
+  font-weight: 700;
+  background: #ffddb5;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 5px 10px 10px;
+}
+.inner-content span{
+  font-size: 12px;
+  color: #938e8e;
+}
+.inner-content p{
+  margin: 0;
+}
