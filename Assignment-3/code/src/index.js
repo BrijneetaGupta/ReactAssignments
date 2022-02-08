@@ -2,11 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+/* import Appointment from './Appointment';
+import Order from './Order';
+import Product from './Product'; */
 import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <App header_info = {header_info} /> */}
+    {/* <Appointment appointment_info = {appointment_info} /> */}
+    {/* <Order order_info = {order_info} /> */}
+    {/* <Product product_list = {product_list} /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
