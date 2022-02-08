@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h3{
+  font-size: 20px;
+  /* margin: 0; */
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #f5f5f5;
+}
+.header span{
+  font-size: 30px;
+  font-weight: 700;
+  color: #9d9c9c;
+  cursor: pointer;
+}
+.header .info_header{
+  text-align: center;
+}
+.header .info_header h3{
+  margin: 0;
+}
+.header .info_header span{
+  font-size: 15px;
+  font-weight: 600;
+  color: #9d9c9c;
+}
+.header button{
+  background: #000;
+  color: #fff;
+  padding: 0px 30px;
+  cursor: pointer;
+}
+.appointment-container, .order-container, .product-container{
+  margin: 15px;
+  border: 2px solid #e3e3e3;
+  border-radius: 5px;
+}
+.appointment-container .customer-info{
+  padding: 20px;
+}
+.appointment-container .customer-info h3 span{
+  font-weight: 500;
+}
+.order-container{
+  background-color: #efeeee;
+}
+.order-container .order-info{
+  display: flex;
+  padding: 20px;
+}
+.order-container .order-info .content{
+  width: 33%;
+}
+.product-container .product-list{
+  display: flex;
+  padding: 20px;
+}
+.product-container .product-list .product-image{
+  margin-right: 30px;
+}
+.product-container .product-list .product-image img{
+  width:150px;
+}
+.product-container .product-list .product-desc p{
+  color: #9d9c9c;
+}
