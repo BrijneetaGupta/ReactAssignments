@@ -1,0 +1,26 @@
+{
+    "user":
+    [
+        {"name":"Siva",
+        "location":"Bengaluru",
+        "likes":64,
+        "description": "Kick start your career",
+        "postImage": "https://heartlandspeechot.com/wp-content/uploads/2018/04/sketching-1080x675.jpg",
+        "date": "10 Feb 2022"
+        },
+        {"name":"Neeraj",
+        "location":"Pune",
+        "likes":30,
+        "description": "New era",
+        "postImage": "https://cdn.shopify.com/s/files/1/1856/9187/articles/b2.jpg?v=1490679948",
+        "date": "5 Feb 2022"
+        },
+        {"name":"Rahul",
+        "location":"Hyderabad",
+        "likes":30,
+        "description": "Future is here",
+        "postImage": "https://engagefi.com/wp-content/uploads/2017/06/standard-post-with-dummy-content.jpg",
+        "date": "31 Jan 2022"
+        }
+    ]
+}

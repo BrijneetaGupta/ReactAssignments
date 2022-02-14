@@ -1,11 +1,85 @@
-.site-container{
-  text-align: center;
+#site-header{
+  box-shadow: 2px 0px 5px #7fced0;
+  padding: 10px;
 }
-html {
-  font-size: 14px;
+#site-header .site-logo{
+  width: 80px;
+  display: inline-block;
 }
-body {
-  line-height: 1.5;
-  color: black;
+#site-header h1{
   margin:0;
-} 
+  font-size: 40px;
+  font-weight: 400;
+  font-family: serif;
+  color: #46aab6;
+  vertical-align: top;
+  display: inline-block;
+}
+#site-header .capture{
+  width: 32px;
+  float: right;
+  display: inline-block;
+  margin: 13px 30px 0 0;
+  box-shadow: 1px 4px 6px #dcd4d4;
+}
+#container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+.card{
+  width: 470px;
+  box-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%);
+  border-radius: 12px;
+  opacity: 1;
+}
+.post-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 20px 10px;
+}
+.post-header .user-detail h4{
+  margin: 3px 0 0 0;
+}
+.post-header .user-detail span{
+  font-size: 16px;
+  color: #bababa;
+  vertical-align: top;
+}
+.post-header .menu-ellipse{
+  padding: 12px;
+}
+.post-header .menu-ellipse img{
+  width: 20px;
+  cursor: pointer;
+}
+.post-image img{
+  width: 100%;
+  max-height: 300px;
+  cursor: pointer;
+}
+.post_description{
+  padding: 7px 20px 22px;
+}
+.post_description .like, .post_description .share{
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.post_description span{
+  float: right;
+  color: #8e8c8c;
+  font-size: 13px;
+  font-weight: 500;
+}
+.post_description .like_count{
+  font-size: 13px;
+  color: #a69e9e;
+  margin: 0;
+}
+.post_description .description{
+  font-weight: 700;
+  margin : 10px 0 0 0;
+}
